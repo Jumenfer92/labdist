@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 		
 		if (mensaje.value.trim() === "") {
-		alert("Ingrese un mensaje, por favor");
-		valid = false;
+			alert("Ingrese un mensaje, por favor");
+			valid = false;
 		}
     });
 });
